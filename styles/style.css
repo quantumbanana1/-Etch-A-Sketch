@@ -67,10 +67,11 @@ body {
     font-size: 45px;
 }
 
-.board {
+#board {
     width: 600px;
     height: 600px;
-    border-style: solid;
+    font-size:0px;
+
 }
 
 .container {
@@ -91,6 +92,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-style: solid;
 }
 
 .color-option {
@@ -143,4 +145,13 @@ body {
     border: solid;
     box-sizing: border-box;
     margin-bottom: 45px;
+    background: #000000;
 }
+
+#board > div {
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    display: inline-block;
+
+    }

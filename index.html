@@ -18,7 +18,7 @@
                 <div class="current-color"></div>
                 <div style="position:relative;">
                     <button type="button" ><i class="icons">Choose the color</i></button>
-                    <input type="color" style="opacity:0;position:absolute; left:0;top:0;width:100%"/>
+                    <input id="input-color" type="color" value="#000000" style="opacity:0;position:absolute; left:0;top:0;width:100%"/>
                 </div>
                 <div class="chosen-color-display">
 
@@ -36,13 +36,13 @@
                 </div>
 
                 <div class="slider-container">
-                    <input type="range" min="1" max="64" value="1" class="slider" id="myRange">
+                    <input id="slider" type="range" min="1" max="64" value="1" class="slider" id="myRange">
                 </div>
             </div>
         </div>
         <div class="board-container">
 
-            <div class="board"></div>
+            <div id="board"></div>
         </div>
 
     </div>
