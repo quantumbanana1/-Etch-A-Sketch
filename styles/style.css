@@ -102,14 +102,11 @@ body {
     align-items: center;
 }
 
-.container .panel > button {
 
-}
 
 .panel button {
     box-sizing: border-box;
     border-color: black;
-    background: #8C8879;
     width: 150px;
     height: 45px;
     border-radius: 25px;
@@ -129,6 +126,8 @@ body {
     -webkit-transition: transform 0.7s ease-in-out;
     -moz-transition:transform 0.7s ease-in-out;
     -ms-transition:transform 0.7s ease-in-out;
+    background-color: rgba(218, 184, 116, 0.87);
+    color: #ececec;
 
 }
 
@@ -155,3 +154,27 @@ body {
     display: inline-block;
 
     }
+
+
+
+ .panel .active, #btn-rainbow-mod:hover, #clear-btn:hover {
+    background-color: rgba(218, 184, 116, 0.87);
+    color: #ececec;
+}
+
+ .display-size {
+     font-family: "Gill Sans Extrabold", sans-serif;
+     border-style: solid;
+     border-width: 1px;
+
+ }
+
+
+ .foot {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 25px;
+     font-family:"Gill Sans Extrabold", sans-serif ;
+     margin-top: 70px;
+ }
